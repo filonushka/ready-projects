@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-  <title>momentum</title>
+  <link rel="stylesheet" href="css/owfont-regular.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Momentum</title>
 </head>
+
 <body>
+  <div class="upper_div">
+    <div>
+      <button class="btn_picture"> </button>
+    </div>
+    <div weather_table>
+      <span class="city" contenteditable="true">Minsk </span>
+      <span class="weather-icon owf"></span>
+      <span class="temperature"></span>
+      <span class="weather-description"></span>
+    </div>
+  </div>
+  <time class="calendar"></time>
   <time class="time"></time>
   <h1>
     <span class="greeting"></span>
     <span class="name" contenteditable="true"></span>
   </h1>
-  <h2>What Is Your Focus For Today?</h2>
+  <h4>What Is Your Focus For Today?</h4>
   <h2 class="focus" contenteditable="true"></h2>
+
+  <div class="quote-box">
+    <div class="quote"></div>
+    <div class="author"></div>
+    <button class="btn">NEW QUOTE</button>
+  </div>
   <script src="script.js"></script>
 </body>
+
 </html>
