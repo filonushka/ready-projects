@@ -1,6 +1,6 @@
 .use-keyboard-input {
   display: block;
-  width: 90%;
+  width: 100%;
   margin: 30px auto;
   padding: 10px;
   font-size: 20px;
@@ -80,4 +80,21 @@
 
 .keyboard__key--dark {
   background: rgba(0, 0, 0, 0.25);
+}
+
+.button-speech {
+    position: absolute;
+    right: 35px;
+    width: 50px;
+    margin: 0;
+    background-color: transparent;
+    border-color: transparent;
+    outline: transparent;
+    border-radius: 100px;
+}
+
+.micro-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
