@@ -48,7 +48,7 @@ const Keyboard = {
       "q", "w", "e", "r", "t", "y", "u", "i", "o", "p",
       "caps", "a", "s", "d", "f", "g", "h", "j", "k", "l", "enter",
       "done", "z", "x", "c", "v", "b", "n", "m", ",", ".", "?",
-      "space"
+      "space",
     ];
 
     // Creates HTML for an icon
